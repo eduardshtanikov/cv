@@ -1,22 +1,22 @@
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Comic Sans, georgia;
 }
 
 .container {
-  padding: 0 40px;
+  padding: 0 80px;
 }
 
   /* Свойства ссылок */
 a {
   display: block;
   text-decoration:none;
-  margin-bottom: 1.2em;
+  margin-bottom: 2em;
 }
 
   /* Что делать при наведении на ссылку */
 a:hover {
-  color:#FFD700;
+  color:#F16B08 ;
 }
 
   /* Этим свойством добавляем подчеркивание */
@@ -26,7 +26,7 @@ a::after {
   left: 0;
   right: 0;
   transform: translateY(1.5em);
-  border-bottom: 1px solid #dadada;
+  border-bottom: 3px solid #dadada;
   width: 300px;
 }
 
@@ -52,5 +52,5 @@ h2 {
 
   /* Эффект наведения на картинку */
 .photo:hover {
-  border: 3px solid #FFD700;
+  border: 3px solid #F16B08;
 }
